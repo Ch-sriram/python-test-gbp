@@ -1,0 +1,2 @@
+[2021-09-13 12:32:20.224] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/mnt/code/vscode-settings/User/snippets'
+[2021-09-13 12:32:20.224] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/mnt/code/vscode-settings/User/snippets'

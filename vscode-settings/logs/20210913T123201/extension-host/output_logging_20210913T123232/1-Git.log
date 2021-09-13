@@ -1,0 +1,33 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --git-dir
+Open repository: /mnt/code
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :time.py
+> git ls-files --stage -- /mnt/code/time.py
+> git cat-file -s 6ccf741fc164e719c7a5ab012a078ee84a368433
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

@@ -1,0 +1,21 @@
+[2021-09-13 12:32:28.411] [exthost] [info] extension host started
+[2021-09-13 12:32:28.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-13 12:32:28.725] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/code-server/lib/vscode/extensions/debug-auto-launch/dist/extension
+[2021-09-13 12:32:28.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-09-13 12:32:28.729] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/code-server/lib/vscode/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-13 12:32:28.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-13 12:32:28.753] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/code-server/lib/vscode/extensions/git/dist/main
+[2021-09-13 12:32:28.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-09-13 12:32:28.796] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/code-server/lib/vscode/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-13 12:32:28.799] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-09-13 12:32:28.799] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/code-server/lib/vscode/extensions/search-result/dist/extension.js
+[2021-09-13 12:32:31.241] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"extensionId":{"value":"vscode.python","_lower":"vscode.python"},"activationEvent":"onLanguage:python"}
+[2021-09-13 12:32:31.241] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/code-server/lib/vscode/extensions/python/dist/pythonMain
+[2021-09-13 12:32:31.243] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2021-09-13 12:32:31.243] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/out/client/extension
+[2021-09-13 12:32:32.677] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-13 12:32:32.677] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/code-server/lib/vscode/extensions/github/dist/extension.js
+[2021-09-13 12:32:34.291] [exthost] [info] eager extensions activated
+[2021-09-13 12:32:35.883] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-13 12:32:35.883] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/code-server/lib/vscode/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-13 12:32:39.943] [exthost] [info] Extension 'ms-python.python' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305

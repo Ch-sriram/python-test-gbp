@@ -1,0 +1,144 @@
+User belongs to experiment group 'ShowPlayIcon - start'
+User belongs to experiment group 'ShowExtensionSurveyPrompt - control'
+User belongs to experiment group 'DebugAdapterFactory - experiment'
+User belongs to experiment group 'PtvsdWheels37 - experiment'
+User belongs to experiment group 'UseTerminalToGetActivatedEnvVars - control'
+User belongs to experiment group 'LocalZMQKernel - experiment'
+User belongs to experiment group 'CollectLSRequestTiming - control'
+User belongs to experiment group 'CollectNodeLSRequestTiming - experiment'
+User belongs to experiment group 'EnableIPyWidgets - experiment'
+User belongs to experiment group 'RunByLine - control'
+User belongs to experiment group 'CustomEditorSupport - control'
+> conda --version
+> pyenv root
+> python3.7 ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3.6 ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3 ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python2 ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> /opt/conda/bin/conda info --json
+Error 2021-09-13 12:32:43: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file 'vscode-remote://run-613f42ab85412c44b88371d6.aws-cloud-dev-compute.svc.cluster.local:80/home/ubuntu/.config/Code/User/settings.json' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/ubuntu/.config/Code/User/settings.json')
+	at _handleError (/opt/code-server/lib/vscode/out/vs/workbench/services/extensions/node/extensionHostProcess.js:731:838)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+	at async y.readText (/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:9:168994)
+	at async p.doesFileNeedToBeFixed (/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:963651)
+	at async /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:962778
+	at async Promise.all (index 0)
+	at async p.getFilesToBeFixed (/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:962724)
+	at async p.updateTestSettings (/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/out/client/extension.js:56:962351)] {
+  code: 'FileNotFound'
+}
+> pyenv root
+> pyenv root
+> pyenv root
+> /opt/conda/bin/conda env list
+Error 2021-09-13 12:32:50: Failed to get interpreter information for '/usr/local/bin/python3' [Error: Command failed: "/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '"/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"'
+}
+Error 2021-09-13 12:32:50: Failed to get interpreter information for '/usr/local/bin/python3' [Error: Command failed: "/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '"/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"'
+}
+Error 2021-09-13 12:32:50: Failed to get interpreter information for '/usr/local/bin/python3' [Error: Command failed: "/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '"/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"'
+}
+Error 2021-09-13 12:32:50: Failed to get interpreter information for '/usr/local/bin/python3' [Error: Command failed: "/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '"/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"'
+}
+Error 2021-09-13 12:32:50: Failed to get interpreter information for '/usr/local/bin/python3' [Error: Command failed: "/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '"/usr/local/bin/python3" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py" "/home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/interpreterInfo.py"'
+}
+Starting Jedi Python language engine.
+> pyenv root
+Error 2021-09-13 12:32:53: Failed to get conda environment list from conda [Error: spawn /opt/conda/bin/conda EACCES
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
+	at onErrorNT (internal/child_process.js:469:16)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  errno: 'EACCES',
+  code: 'EACCES',
+  syscall: 'spawn /opt/conda/bin/conda',
+  path: '/opt/conda/bin/conda',
+  spawnargs: [ 'env', 'list' ]
+}
+> /opt/conda/bin/conda env list
+Error 2021-09-13 12:32:53: Failed to get conda environment list from conda [Error: spawn /opt/conda/bin/conda EACCES
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
+	at onErrorNT (internal/child_process.js:469:16)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  errno: 'EACCES',
+  code: 'EACCES',
+  syscall: 'spawn /opt/conda/bin/conda',
+  path: '/opt/conda/bin/conda',
+  spawnargs: [ 'env', 'list' ]
+}
+Python interpreter path: /opt/conda/bin/python
+> pyenv root
+Error 2021-09-13 12:32:54: getActivatedEnvironmentVariables [Error: Command failed: . /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py
+/opt/conda/etc/profile.d/conda.sh: line 55: /opt/conda/bin/conda: Permission denied
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: ". /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py"
+}
