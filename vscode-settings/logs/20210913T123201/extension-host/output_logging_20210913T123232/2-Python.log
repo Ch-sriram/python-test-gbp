@@ -142,3 +142,69 @@ Error 2021-09-13 12:32:54: getActivatedEnvironmentVariables [Error: Command fail
   signal: null,
   cmd: ". /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py"
 }
+Error 2021-09-13 12:32:57: getActivatedEnvironmentVariables [Error: Command failed: . /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py
+/opt/conda/etc/profile.d/conda.sh: line 55: /opt/conda/bin/conda: Permission denied
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: ". /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py"
+}
+Error 2021-09-13 12:32:57: getActivatedEnvironmentVariables, Class name = E, completed in 3802ms, has a falsy return value, Arg 1: undefined, Arg 2: {"architecture":3,"path":"/opt/conda/bin/python","version":{"options":{"loose":false,"includePrerelease":false},"loose":false,"raw":"3.8.5-final","major":3,"minor":8,"patch":5,"prerelease":["final"],"build":[],"version":"3.8.5-final"},"sysVersion":"3.8.5 (default, Sep  4 2020, 07:30:14) \n[GCC 7.3.0]","sysPrefix":"/opt/conda","fileHash":"30b043cc4f31d1eb61a8d60bb1df379ad3aede76a1b732cfa55019cf4d340970bf60d474e2ca65ddfef5a37ee5e35c7c4cd72ae5502d6e361d437e75b01e16a2","envType":"VirtualEnv","envName":"conda","displayName":"Python 3.8.5 64-bit ('conda': virtualenv)"}, Arg 3: true [Error: Command failed: . /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py
+/opt/conda/etc/profile.d/conda.sh: line 55: /opt/conda/bin/conda: Permission denied
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: ". /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py"
+}
+Error 2021-09-13 12:32:57: getActivatedEnvironmentVariables [Error: Command failed: . /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py
+/opt/conda/etc/profile.d/conda.sh: line 55: /opt/conda/bin/conda: Permission denied
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: ". /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py"
+}
+Error 2021-09-13 12:32:57: getActivatedEnvironmentVariables, Class name = E, completed in 3803ms, has a falsy return value, Arg 1: undefined, Arg 2: {"architecture":3,"path":"/opt/conda/bin/python","version":{"options":{"loose":false,"includePrerelease":false},"loose":false,"raw":"3.8.5-final","major":3,"minor":8,"patch":5,"prerelease":["final"],"build":[],"version":"3.8.5-final"},"sysVersion":"3.8.5 (default, Sep  4 2020, 07:30:14) \n[GCC 7.3.0]","sysPrefix":"/opt/conda","fileHash":"30b043cc4f31d1eb61a8d60bb1df379ad3aede76a1b732cfa55019cf4d340970bf60d474e2ca65ddfef5a37ee5e35c7c4cd72ae5502d6e361d437e75b01e16a2","envType":"VirtualEnv","envName":"conda","displayName":"Python 3.8.5 64-bit ('conda': virtualenv)"}, Arg 3: true [Error: Command failed: . /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py
+/opt/conda/etc/profile.d/conda.sh: line 55: /opt/conda/bin/conda: Permission denied
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:315:20)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:443:11)
+	at Socket.emit (events.js:315:20)
+	at Pipe.<anonymous> (net.js:674:12)] {
+  killed: false,
+  code: 126,
+  signal: null,
+  cmd: ". /opt/conda/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/printEnvVariables.py"
+}
+> /opt/conda/bin/conda --version
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py pylint --disable=all --enable=F,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,unused-wildcard-import,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode,E0001,E0011,E0012,E0100,E0101,E0102,E0103,E0104,E0105,E0107,E0108,E0110,E0111,E0112,E0113,E0114,E0115,E0116,E0117,E0118,E0202,E0203,E0211,E0213,E0236,E0237,E0238,E0239,E0240,E0241,E0301,E0302,E0303,E0401,E0402,E0601,E0602,E0603,E0604,E0611,E0632,E0633,E0701,E0702,E0703,E0704,E0710,E0711,E0712,E1003,E1101,E1102,E1111,E1120,E1121,E1123,E1124,E1125,E1126,E1127,E1128,E1129,E1130,E1131,E1132,E1133,E1134,E1135,E1136,E1137,E1138,E1139,E1200,E1201,E1205,E1206,E1300,E1301,E1302,E1303,E1304,E1305,E1306,E1310,E1700,E1701 --msg-template='{line},{column},{category},{symbol}:{msg}' --reports=n --output-format=text /mnt/code/time.py
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py pylint --disable=all --enable=F,unreachable,duplicate-key,unnecessary-semicolon,global-variable-not-assigned,unused-variable,unused-wildcard-import,binary-op-exception,bad-format-string,anomalous-backslash-in-string,bad-open-mode,E0001,E0011,E0012,E0100,E0101,E0102,E0103,E0104,E0105,E0107,E0108,E0110,E0111,E0112,E0113,E0114,E0115,E0116,E0117,E0118,E0202,E0203,E0211,E0213,E0236,E0237,E0238,E0239,E0240,E0241,E0301,E0302,E0303,E0401,E0402,E0601,E0602,E0603,E0604,E0611,E0632,E0633,E0701,E0702,E0703,E0704,E0710,E0711,E0712,E1003,E1101,E1102,E1111,E1120,E1121,E1123,E1124,E1125,E1126,E1127,E1128,E1129,E1130,E1131,E1132,E1133,E1134,E1135,E1136,E1137,E1138,E1139,E1200,E1201,E1205,E1206,E1300,E1301,E1302,E1303,E1304,E1305,E1306,E1310,E1700,E1701 --msg-template='{line},{column},{category},{symbol}:{msg}' --reports=n --output-format=text /mnt/code/time.py
+cwd: /mnt/code
+##########Linting Output - pylint##########
+
+------------------------------------
+Your code has been rated at 10.00/10
+
