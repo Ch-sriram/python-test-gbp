@@ -208,3 +208,24 @@ cwd: /mnt/code
 ------------------------------------
 Your code has been rated at 10.00/10
 
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.prefix)"
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.prefix)"
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py site --user-site
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py site --user-site
+cwd: /mnt/code
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/completion.py
+> /opt/conda/bin/python ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py ~/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/completion.py
+Error 2021-09-13 12:35:32: stderr jediProxy Error (stderr) /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2020.10.332292344/pythonFiles/completion.py:584: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).get_names instead.
+  jedi.api.names(
+

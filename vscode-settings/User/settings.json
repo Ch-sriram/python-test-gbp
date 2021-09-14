@@ -1,4 +1,4 @@
 {
-	"extensions.autoUpdate":false,
-	"python.pythonPath": "/opt/conda/bin/python"
+  "extensions.autoUpdate": false,
+  "python.pythonPath": "/opt/conda/bin/python"
 }

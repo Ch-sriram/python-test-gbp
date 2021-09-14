@@ -8,7 +8,3 @@ print("PST:", datetime_PST.strftime("%H:%M:%S"))
 tz_IST = pytz.timezone('Asia/Kolkata')
 datetime_IST = datetime.now(tz_IST)
 print("IST:", datetime_IST.strftime("%H:%M:%S"))
-
-print('This is a small change to time.py')
-print('Another print statement')
-print('Another change')
